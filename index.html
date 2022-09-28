@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jisung Kang">
+    <title>Jisung Kang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="https://www.linkedin.com/in/jisung-kang-060293229/">
+        <button class="button">Click to Connect!</button>
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Jisung Kang</h1>
+    <h2>software engineer studying computer science @ UC Berkeley</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="about">
+        <div id="profile-picture">
+            <img src="profile.jpg" alt="Profile Picture" height="300" width="225">
+        </div>
+        <div>
+            <h3>It's nice to meet you!</h3>
+            <p>I'm Jisung, and I was born in South Korea, raised in Seoul, and now living in the Bay Area.</p>
+            <p>When not coding, I find joy in <a href="https://pioneers.berkeley.edu/" target="_blank">building communities</a>, teaching, video games, and workouts!</p>
+            <p>Check out some of my work below, and don't hesitate to <a href="https://www.linkedin.com/in/jisung-kang-060293229/">reach out</a> with opportunities, ideas, or just to chat!</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="work">
+        <h4 class="work-header">Some of my work</h4>
+        <br>
+        <br>
+        <br>
+        <div id="work-ex">
+            <h5>Gitlet</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor, impedit quis ut fugiat inventore magni sunt laboriosam labore provident voluptatem officiis praesentium non obcaecati ullam cum ex iusto adipisci.</p>
+        </div>
+        <div id="work-ex">
+            <h5>Pioneers in Engineering</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex molestiae, deserunt rem accusantium dicta nobis? Quaerat illum distinctio, in impedit corrupti nobis ratione veniam cupiditate et tenetur. Commodi, omnis accusamus!</p>
+        </div>
+        <div id="work-ex">    
+            <h5>Automatic Strandbeest</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt modi expedita culpa doloribus autem perspiciatis rerum assumenda, eveniet dignissimos ea, natus reprehenderit a iste sed officia corrupti sit quae dolor!</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label>Please rate my website on a scale of 1 to 10!</label>
+    <form method="post">
+        <input id="rateVal" type="number"></input>
+        <button type="button" onclick="rateFunction()">Submit</button>
+    </form>
+    <script> 
+    function rateFunction() {
+        let x = document.getElementById("rateVal").value;
+        if (x == 10) {
+            alert("Correct answer!")
+        } else if (0 < x < 10) {
+            alert(":( Try again!")
+        } else {
+            alert("Invalid input!")
+        }
+    }
+    </script>
+    <div class="contact">
+        <h6>Connect with me</h6>
+        <p>Email me at jisungk@berkeley.edu or reach out to me on <a href="https://www.linkedin.com/in/jisung-kang-060293229/">Linkedin!</a></p> 
+    </div>
+</body>
+</html>
